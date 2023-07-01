@@ -1,0 +1,529 @@
+.container {
+	max-width: 1920px;
+	max-height: 6326px;
+	margin: 0 auto;
+	font-family: 'Graphik LCG';
+}
+
+header{
+	box-sizing: border-box;
+	background-color: #1B1B1B;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+header > .header-menu {
+	color: #FFFFFF;
+	font-family: 'Pacifico';
+	font-size: 12px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.header-menu > div {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	padding-right: 60px;
+}
+
+.blue-button {
+	box-sizing: border-box;
+	background-color: #5C9FF9;
+	width: 170px;
+	max-height: 37px;
+	margin-top: 15px;
+	padding-left: 15px;
+	
+}
+
+.logo-main {
+	max-width: 150px;
+	max-height: auto;
+	
+}
+
+.logo-main-div {
+	padding-left: 40px;
+	padding-top: 15px;
+}
+
+.black-fone {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #1B1B1B;
+}
+
+.black-fone > .black {
+	height: 610px;
+	
+}
+
+.logo {
+	max-width: 146px;
+	max-height: auto;
+	padding-left: 315px;
+	padding-top: 162px;
+}
+
+.text-in-black {
+	max-width: 400px;
+	max-height: 127px;
+	color: #FFFFFF;
+	padding-left: 316px;
+	padding-top: 27px;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: 'Pacifico';
+}
+
+.link {
+	color: #FFFFFF;
+	padding-left: 316px;
+	padding-top: 73px;
+	font-family: 'Pacifico';
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 11px;
+}
+
+.web-in-black {
+	padding-left: 10px;
+}
+
+.fone {
+	max-width: 804px;
+	width: 100%;
+	max-height: 500px;
+}
+
+.header-fone {
+	width: 100%;
+	height: 650px;
+	border-radius: 0px 0px 0px 450px; 
+}
+
+.white1 {
+	background-color: #FFFFFF;
+	
+}
+
+.title1 {
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 65px;
+	padding-left: 316px;
+}
+
+.white1-text {
+	font-size: 15px;
+	line-height: 1.5;
+	max-width: 780px;
+	height: 50px;
+	padding-top: 11px;
+	padding-left: 316px;
+}
+
+.hr {
+	border: 1px solid #DCDCDC;
+	max-width: 900px;
+	min-width: 200px;
+	margin-top: 55px;
+	margin-left: 316px;
+}
+
+.hr_orange {
+	border: 3px solid #FF3300;
+	width: 35px;
+	margin-left: auto;
+}
+
+.site-mini {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 62px;
+	padding-left: 316px;
+}
+
+.site2-3, .site4-5{
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: #FFFFFF;
+}
+
+.site2-3 {
+	padding-top: 25px;
+}
+
+.site1, .site3, .site4, .site5, .site1-main {
+	width: 540px;
+	height: 268px;
+}
+
+.site2 {
+	width: 390px;
+	height: 268px;
+}
+
+.site4 {
+	padding-left: 82px;
+}
+
+.site4-5 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.site5 {
+	padding-left: 53px;
+}
+
+.site-menu {
+	text-align: right;
+	padding-left: 90px;
+	height: 268px;
+}
+
+.site-menu > div {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.menu {
+	margin-bottom: 60px;
+}
+
+.reservation {
+	background-color: #FFFFFF;
+}
+
+.sistem-main {
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 15px;
+	line-height: 1.5;
+	max-width: 780px;
+	height: 50px;
+	padding-top: 90px;
+	padding-left: 316px;
+}
+
+.sistem {
+	padding-left: 120px;
+}
+
+.site6 {
+	max-width: 800px;
+	max-height: 595px;
+	padding-top: 100px;
+	padding-left: 315px;
+}
+
+@media only screen and (max-width: 1400px) {
+	.logo {
+		max-width: 146px;
+		max-height: auto;
+		padding-top: 162px;
+	}
+
+	.site-mini, .site2-3, .site4-5 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.site1, .site3 {
+		width: 540px;
+		height: 268px;
+	}
+    .site2 {
+		width: 540px;
+		height: 330px;
+	}
+	
+	.site-mini, .logo, .link, .text-in-black, .title1, .white1-text, .site-mini, .sistem-main, .site6 {
+		padding-left: 150px;
+	}
+	.site1-main {
+		padding-right: 50px;
+	}
+	
+	.hr {
+		margin-left: 150px;
+	}
+	
+	.site4, .site5 {
+		width: 648px;
+		height: 321px;
+		padding-left: 150px;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.site2, .site3 {
+		padding-left: 150px;
+	}
+	
+	.site-menu {
+		text-align: right;
+		padding-left: 150px;
+		height: 268px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.header-menu > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-right: 20px;
+	}
+	
+	.black-fone > .black {
+		height: 450px;
+	
+	}
+	
+	.fone {
+		max-width: 595px;
+		width: 100%;
+		max-height: 370px;
+	}
+
+	.header-fone {
+		width: 100%;
+		height: 488px;
+	}
+
+	.logo {
+		padding-top: 80px;
+	}
+
+	.site6 {
+		width: 640px;
+		height: 476px;
+	}
+
+	.sistem-main {
+		max-width: 780px;
+		min-width: 234px;
+		height: 50px;
+	}
+
+	.text-in-black {
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	
+	.menu {
+		margin-bottom: 30px;
+}
+	
+	.sistem {
+		padding-left: 80px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.site4, .site5 {
+		width: 570px;
+		height: 281px;
+	}
+	
+	.site6 {
+		width: 576px;
+		height: 428px;
+	}
+	
+}
+
+@media only screen and (max-width: 800px) {
+	
+	header > .header-menu {
+		font-size: 9px;
+	}
+
+	.sistem {
+		padding-left: 40px;
+	}
+
+	.title1 {
+		font-size: 25px;
+		font-weight: bold;
+		padding-top: 45px;
+	}
+
+	.white1-text {
+		font-size: 12px;
+		line-height: 1.2;
+		max-width: 780px;
+		height: 50px;
+	}
+
+	.black-fone > .black {
+		height: 360px;
+	
+	}
+	
+	.fone {
+		max-width: 476px;
+		width: 100%;
+		max-height: 296px;
+	}
+
+	.header-fone {
+		width: 100%;
+		height: 390px;
+	}
+	
+	.site-mini, .logo, .link, .text-in-black, .title1, .white1-text, .site-mini, .sistem-main, .site6, .site4, .site5, .site2, .site3 {
+		padding-left: 90px;
+	}
+	
+	.site-menu {
+		text-align: right;
+		padding-left: 90px;
+		height: 180px;
+	}
+
+	.header-menu > div {
+		padding-right: 30px;
+	}
+
+	.site-menu > div {
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	header > .header-menu {
+		display: none;
+	}
+	
+	.sistem-main {
+		font-size: 12px;
+		line-height: 1.2;
+	}
+
+	.hr {
+		margin-left: 90px;
+		width: 400px;
+		margin-top: 35px;
+	}
+	
+	.logo {
+		max-width: 100px;
+	}
+	
+}
+
+@media only screen and (max-width: 700px) {
+	.site4, .site5 {
+		width: 399px;
+		height: 196px;
+	}
+	
+	.site6 {
+		width: 403px;
+		height: 299px;
+	}
+	
+	.site1, .site3 {
+		width: 378px;
+		height: 187px;
+	}
+	
+    .site2 {
+		width: 378px;
+		height: 231px;
+	}
+	
+	.sistem {
+		padding-left: 20px;
+	}
+	
+	.title1 {
+		font-size: 15px;
+		font-weight: bold;
+		padding-top: 25px;
+	}
+	
+	.sistem-img {
+		display: block;
+		width: 50px;
+		height: auto;
+	}
+	
+	.sistem-main {
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.logo, .link, .text-in-black, .title1, .white1-text, .site-mini, .sistem-main, .site6, .site4, .site5, .site2, .site3 {
+		padding-left: 30px;
+	}
+	
+	.logo, .link, .text-in-black {
+		padding-left: 15px;
+	}
+	
+	.hr {
+		margin-left: 30px;
+		width: 350px;
+		margin-top: 35px;
+	}
+	
+	.black-fone > .black {
+		height: 288px;
+	
+	}
+	
+	.fone {
+		max-width: 280px;
+		width: 100%;
+		max-height: 236px;
+	}
+
+	.header-fone {
+		width: 100%;
+		height: 312px;
+	}
+	
+	.logo {
+		padding-top: 20px;
+	}
+	
+	.link {
+		padding-top: 40px;
+	
+	}
+
+	.logo-main {
+		width: 100px;
+	}
+	
+	.text-in-black {
+		font-size: 10px;
+		line-height: 1.2;
+	}
+	
+	.site4, .site5 {
+		width: 279px;
+		height: 137px;
+	}
+	
+	.site6 {
+		width: 282px;
+		height: 209px;
+	}
+	
+	.site1, .site3 {
+		width: 265px;
+		height: 130px;
+	}
+	
+    .site2 {
+		width: 264px;
+		height: 161px;
+	}
+}
